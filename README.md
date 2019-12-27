@@ -4,7 +4,7 @@
 参考论文: Yu Y , Zhou K , Xu D , et al. Mesh editing with poisson-based gradient field manipulation[J]. ACM Transactions on Graphics, 2004, 23(3):644.
 
 ## 1. 编译环境及第三方库
-* Win10， VS2012或跟高版本
+* Win10， VS2012或跟高版本， X64编译
 * 需要用到的第三方库包括：**OpenMesh**， **OpenGL**， **Eigen**， 第三方库已经包括在*libs*文件夹，第三方库已经配置好，你不需要配置环境。
 
 
