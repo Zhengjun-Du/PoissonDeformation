@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\utility">
+      <UniqueIdentifier>{9e31c136-c06e-4dba-b512-a0dadcde58fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utility">
+      <UniqueIdentifier>{746a1e5a-94ee-4c70-8712-b4c48d53f080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{32f203f8-9e70-4938-987f-8f2fc93ae346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{edf077b9-9452-4f19-8df8-1f31be32038d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\deformation">
+      <UniqueIdentifier>{336f238f-5222-4ead-a1d2-66cdd1980b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\deformation">
+      <UniqueIdentifier>{29fd7957-799c-4e99-98a0-e08ffe2ce680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\picking">
+      <UniqueIdentifier>{84e8d82b-e712-4ef9-8e46-53eeaff8994b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\picking">
+      <UniqueIdentifier>{93c17015-0dd8-4bd8-8217-61ed3eb5599f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MeshDeformation.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MeshDeformationDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MeshDeformation.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeshDeformation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshPick\math3d.h">
+      <Filter>头文件\picking</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshPick\MyMeshPick.h">
+      <Filter>头文件\picking</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshPick\Selection.h">
+      <Filter>头文件\picking</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\baseHeadFile.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CP_PointVector.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\predefine.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\quaternion.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SimpleCompute.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MainFrm.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MeshDeformationView.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MyLeftPane.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PoissonDefDlg.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIControl.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDeformationDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\MyAfxFunction.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\MeshLaplacianSolver.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ArcBall.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MyArcBall.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDisplay\MyTriMesh.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDeform\PoissonDeform\PoissonDeformation.h">
+      <Filter>头文件\deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDeform\Deformation.h">
+      <Filter>头文件\deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDeform\PoissonDeform\ControlVertex.h">
+      <Filter>头文件\deformation</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ConstDef.h">
+      <Filter>头文件\utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MeshDeformation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshPick\math3d.cpp">
+      <Filter>源文件\picking</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshPick\MyMeshPick.cpp">
+      <Filter>源文件\picking</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshPick\Selection.cpp">
+      <Filter>源文件\picking</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\CP_PointVector.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\quaternion.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\SimpleCompute.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MainFrm.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MeshDeformationView.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MyLeftPane.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PoissonDefDlg.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIControl.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDeformationDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\MyAfxFunction.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\MeshLaplacianSolver.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ArcBall.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MyArcBall.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDisplay\MyTriMesh.cpp">
+      <Filter>源文件\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDeform\PoissonDeform\PoissonDeformation.cpp">
+      <Filter>源文件\deformation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDeform\Deformation.cpp">
+      <Filter>源文件\deformation</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDeform\PoissonDeform\ControlVertex.cpp">
+      <Filter>源文件\deformation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MeshDeformation.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
