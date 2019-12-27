@@ -1,10 +1,23 @@
-1.需要的库: 
-  opengl库和Eigen库都已经自带，你需要安装openmesh.
+# PoissonDeformation
+**Authors:** [Zhengjun-Du], 有任何疑问请联系：duzjqhu@aliyun.com
 
-2.关于UI的交互：
-  交互只涉及了旋转: 绕Y轴的旋转(鼠标中键 + Ctrl), 绕X轴的旋转(鼠标中键 + Shift)
+参考论文: Yu Y , Zhou K , Xu D , et al. Mesh editing with poisson-based gradient field manipulation[J]. ACM Transactions on Graphics, 2004, 23(3):644.
 
-3.交互扩散方法：
-  程序使用了求解调和函数求解，但是不是适用于所有的情况，为了简化，这里使用了这种方法。
+# 1. 编译环境及第三方库
+Win10， VS2012或跟高版本
+需要用到的第三方库包括：**OpenMesh**， **OpenGL**， **Eigen**， 第三方库已经包括在*libs*文件夹，第三方库已经配置好，你不需要配置环境。
 
-4.model文件夹下有一个长方体的模型，txt文件是其边界条件，变形时点击“导入边界”导入 
+
+# 2. 核心代码
+核心代码位于: /MeshDeformation/MeshDeform/PoissonDeform/PoissonDeformation.cpp (计算梯度和散度)
+以及：  /MeshDeformation/Utility/MeshLaplacianSolver.cpp （构建拉普拉斯矩阵）
+
+# 3.如何使用
+项目提供了一个长方体测试模型以及控制点位于*test_model*文件夹
+1）点击**打开**按钮，选中*test_model*文件夹中的*cuboid.obj*模型
+2）点击上方**泊松变形**
+3）点击左侧**导入边界**
+4）选中长方体底部部分区域，点击左侧**设定固定区域**
+5）点击左侧**计算拉普拉斯矩阵**
+6）目前提供三种交互：A. 绕Y轴的旋转(鼠标中键 + Ctrl),  B. 绕X轴的旋转(鼠标中键 + Shift)  C. 平移(Ctrl+鼠标右键)
+7）点击左侧**泊松变形**
