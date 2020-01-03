@@ -21,3 +21,6 @@
 * 5）点击左侧**计算拉普拉斯矩阵**
 * 6）目前提供三种交互：A. 绕Y轴的旋转(鼠标中键 + Ctrl),  B. 绕X轴的旋转(鼠标中键 + Shift)  C. 平移(Ctrl+鼠标右键)
 * 7）点击左侧**泊松变形**
+
+## 4.论文讲解
+* [https://blog.csdn.net/u011426016/article/details/103727265](https://blog.csdn.net/u011426016/article/details/103727265) 
