@@ -73,8 +73,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\utility library\OpenMesh 2.3\include;..\libs\MTL;..\libs\opengllib;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\utility library\OpenMesh 2.3\lib;..\libs\opengllib;E:\ARAPSM\SimpleFrame\Debug;E:\ARAPSM\tools\colorMesh\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\libs\OpenMesh3.0\include;..\libs;..\libs\opengllib;..\libs\Eigen;$(IncludePath)</IncludePath>
+    <LibraryPath>..\libs\OpenMesh3.0\lib;..\libs\opengllib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -83,8 +83,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\utility library\OpenMesh 2.3\include;..\libs\MTL;..\libs\opengllib;$(IncludePath)D:\utility library\OpenMesh 2.3\include</IncludePath>
-    <LibraryPath>D:\utility library\OpenMesh 2.3\lib;..\libs\opengllib;E:\ARAPSM\tools\colorMesh\Release;E:\ARAPSM\SimpleFrame\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\libs\OpenMesh3.0\include;..\libs;..\libs\opengllib;..\libs\Eigen;$(IncludePath)</IncludePath>
+    <LibraryPath>..\libs\OpenMesh3.0\lib;..\libs\opengllib;$(LibraryPath)</LibraryPath>
     <GenerateManifest>false</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -100,7 +100,8 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>../Deform/;E:\ARAPSM\SimpleFrame;D:\programing software\MATLAB2013a\extern\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
