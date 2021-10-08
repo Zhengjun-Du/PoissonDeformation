@@ -1,26 +1,28 @@
 # PoissonDeformation
-**×÷Õß:** [Zhengjun-Du], ÓĞÈÎºÎÒÉÎÊÇëÁªÏµ£ºduzjqhu@aliyun.com
+**authors:** [Zhengjun-Du], any questions, please contact meï¼šduzjqhu@aliyun.com
 
-²Î¿¼ÂÛÎÄ: Yu Y , Zhou K , Xu D , et al. Mesh editing with poisson-based gradient field manipulation[J]. ACM Transactions on Graphics, 2004, 23(3):644.
+Reference: Yu Y , Zhou K , Xu D , et al. Mesh editing with poisson-based gradient field manipulation[J]. ACM Transactions on Graphics, 2004, 23(3):644.
 
-## 1. ±àÒë»·¾³¼°µÚÈı·½¿â
-* Win10£¬ VS2012»ò¸ú¸ß°æ±¾£¬ X64±àÒë
-* ĞèÒªÓÃµ½µÄµÚÈı·½¿â°üÀ¨£º**OpenMesh**£¬ **OpenGL**£¬ **Eigen**£¬ µÚÈı·½¿âÒÑ¾­°üÀ¨ÔÚ*libs*ÎÄ¼ş¼Ğ£¬µÚÈı·½¿âÒÑ¾­ÅäÖÃºÃ£¬Äã²»ĞèÒªÅäÖÃ»·¾³¡£
+## 1. Platform and thirdparty libs
+* Win10  
+* VS2012 or higher version, X64  
+* OpenMesh  
+* OpenGL    
+* Eigen  
 
+## 2. Core code
+* locate in: /MeshDeformation/MeshDeform/PoissonDeform/PoissonDeformation.cpp (calculate gradient and divergence)  
+* /MeshDeformation/Utility/MeshLaplacianSolver.cpp ï¼ˆbuild laplacian matrixï¼‰  
 
-## 2. ºËĞÄ´úÂë
-* ºËĞÄ´úÂëÎ»ÓÚ: /MeshDeformation/MeshDeform/PoissonDeform/PoissonDeformation.cpp (¼ÆËãÌİ¶ÈºÍÉ¢¶È)
-* ÒÔ¼°£º  /MeshDeformation/Utility/MeshLaplacianSolver.cpp £¨¹¹½¨À­ÆÕÀ­Ë¹¾ØÕó£©
+## 3. Usage
+The test model locate in "/test_model" directory, include the model and control points.  
+* 1ï¼‰click **æ‰“å¼€** buttonï¼Œselect cuboid.obj in "/test_model"
+* 2ï¼‰click **æ³Šæ¾å˜å½¢**
+* 3ï¼‰click **å¯¼å…¥è¾¹ç•Œ** on the left pannel, select cuboid.txt in "/test_model"
+* 4ï¼‰select the bottom region of the cuboidï¼Œclick **è®¾å®šå›ºå®šåŒºåŸŸ** on the left pannel  
+* 5ï¼‰click **è®¡ç®—æ‹‰æ™®æ‹‰æ–¯çŸ©é˜µ** on the left pannel
+* 6ï¼‰provide 3 interactionsï¼šA. rotate with Y axis(mid button of mouse + Ctrl),  B. rotate with X-axis(mid button of mouse + Shift)  C. translate(Ctrl+ mid button of mouse)
+* 7ï¼‰click **æ³Šæ¾å˜å½¢** 
 
-## 3.ÈçºÎÊ¹ÓÃ
-ÏîÄ¿Ìá¹©ÁËÒ»¸ö³¤·½Ìå²âÊÔÄ£ĞÍÒÔ¼°¿ØÖÆµãÎ»ÓÚ*test_model*ÎÄ¼ş¼Ğ
-* 1£©µã»÷**´ò¿ª**°´Å¥£¬Ñ¡ÖĞ*test_model*ÎÄ¼ş¼ĞÖĞµÄ*cuboid.obj*Ä£ĞÍ
-* 2£©µã»÷ÉÏ·½**²´ËÉ±äĞÎ**
-* 3£©µã»÷×ó²à**µ¼Èë±ß½ç**£¬Ñ¡ÖĞÑ¡ÖĞ*test_model*ÎÄ¼ş¼ĞÖĞµÄ*cuboid.txt*ÎÄ¼ş
-* 4£©Ñ¡ÖĞ³¤·½Ìåµ×²¿²¿·ÖÇøÓò£¬µã»÷×ó²à**Éè¶¨¹Ì¶¨ÇøÓò**
-* 5£©µã»÷×ó²à**¼ÆËãÀ­ÆÕÀ­Ë¹¾ØÕó**
-* 6£©Ä¿Ç°Ìá¹©ÈıÖÖ½»»¥£ºA. ÈÆYÖáµÄĞı×ª(Êó±êÖĞ¼ü + Ctrl),  B. ÈÆXÖáµÄĞı×ª(Êó±êÖĞ¼ü + Shift)  C. Æ½ÒÆ(Ctrl+Êó±êÓÒ¼ü)
-* 7£©µã»÷×ó²à**²´ËÉ±äĞÎ**
-
-## 4.ÂÛÎÄ½²½â
+## 4. Paper analysis
 * [https://blog.csdn.net/u011426016/article/details/103727265](https://blog.csdn.net/u011426016/article/details/103727265) 
