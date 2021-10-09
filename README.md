@@ -1,5 +1,5 @@
-# PoissonDeformation
-**authors:** [Zhengjun-Du], any questions, please contact me：duzjqhu@aliyun.com
+# My implementation of  Mesh editing with poisson-based gradient field manipulation
+**My email:** duzjqhu@aliyun.com, any questions, please contact me.  
 
 Reference: Yu Y , Zhou K , Xu D , et al. Mesh editing with poisson-based gradient field manipulation[J]. ACM Transactions on Graphics, 2004, 23(3):644.
 
