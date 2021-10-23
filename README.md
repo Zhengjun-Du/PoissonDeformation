@@ -24,5 +24,5 @@ The test model locate in "/test_model" directory, include the model and control 
 * 6）provide 3 interactions：A. rotate with Y axis(mid button of mouse + Ctrl),  B. rotate with X-axis(mid button of mouse + Shift)  C. translate(Ctrl+ mid button of mouse)
 * 7）click **泊松变形** 
 
-## 4. Paper analysis
+## 4. Paper analysis in Chinese
 * [https://blog.csdn.net/u011426016/article/details/103727265](https://blog.csdn.net/u011426016/article/details/103727265) 
